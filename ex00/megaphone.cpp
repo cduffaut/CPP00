@@ -16,11 +16,11 @@ int	main(int argc, char **argv)
 			{
 				if (argv[i][j] > 96 && argv[i][j] < 123)
 				{	
-					std::cout << (j - 32) << argv[i][j] << std::endl;
+					std::cout << (char)(argv[i][j] - 32);
 				}
 				else
 				{
-					std::cout << j << argv[i][j] << std::endl;
+					std::cout << (char)(argv[i][j]);
 				}
 				j++;
 			}
