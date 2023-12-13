@@ -25,7 +25,7 @@ class PhoneBook
 	int		nbr;
 
 	void addContact();
-    void searchContact();
+	void searchContact();
 };
 
 #endif
