@@ -1,6 +1,5 @@
 #include "MyAwesomePhoneBook.hpp"
 
-// condition ? expression_si_vrai : expression_si_faux;
 void PhoneBook::addContact()
 {
 		if (nbr == 8)
